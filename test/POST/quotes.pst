@@ -1,0 +1,3 @@
+update quotes set quote_num=QUOTES_QUOTE_NUM_SEQ.nextval where quote_num is null;
+commit;
+

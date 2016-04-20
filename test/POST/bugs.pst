@@ -1,0 +1,3 @@
+update bugs set bug_number=BUGS_BUG_NUMBER_SEQ.nextval where bug_number is null;
+commit;
+

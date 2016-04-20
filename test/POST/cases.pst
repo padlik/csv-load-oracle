@@ -1,0 +1,3 @@
+update cases set case_number = CASES_CASE_NUMBER_SEQ.nextval where case_number is null;
+commit;
+
