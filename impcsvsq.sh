@@ -11,7 +11,7 @@
 CSV_SAVE_SPACE="${CSV_SAVE_SPACE:-'yes'}"
 ORA_USER="${ORA_USER:-'sugar'}"
 ORA_PWD="${ORA_PWD:-'sugar'}"
-#ORA_TNS=
+ORA_TNS="${ORA_TNS:-}"
 ORA_FORMAT=${ORA_FORMAT:-'YYYY-MM-DD HH24:MI:SS'}
 CSV_DIR="${CSV_DIR:-'/u01/app/oracle/admin/orcl/csv'}"
 
